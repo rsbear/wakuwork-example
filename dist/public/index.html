@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Wakuwork example</title>
+    <script async type="module" crossorigin src="/assets/main-2c292f0a.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-c4eebaae.js">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script>
+globalThis.__webpack_require__ = (id) => {
+  const cache = globalThis.__webpack_require__wakuwork_cache;
+  if (cache && cache.has(id)) return cache.get(id);
+  return import(id);
+};</script>
+  
+<script>
+if (!globalThis.__WAKUWORK_PREFETCHED__) {
+globalThis.__WAKUWORK_PREFETCHED__ = {
+  'App': {'{"name":"Wakuwork"}': fetch('/RSC/App/props=%7B%22name%22%3A%22Wakuwork%22%7D')}
+};
+import('/assets/rsc0-78402735.js');}
+</script></body>
+</html>

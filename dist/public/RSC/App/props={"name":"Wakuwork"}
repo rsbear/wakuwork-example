@@ -1,0 +1,2 @@
+1:I{"id":"/assets/rsc0-78402735.js","chunks":[],"name":"Counter","async":true}
+0:["$","div",null,{"style":{"border":"3px red dashed","margin":"1em","padding":"1em"},"children":[["$","h1",null,{"children":["Hello ","Wakuwork","!!"]}],["$","h3",null,{"children":"This is a server component."}],["$","$L1",null,{}]]}]

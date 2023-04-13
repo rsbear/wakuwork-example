@@ -1,0 +1,1 @@
+import{r as s,a as e,j as n}from"./jsx-runtime-c4eebaae.js";const i=()=>{const[t,r]=s.useState(0);return e("div",{style:{border:"3px blue dashed",margin:"1em",padding:"1em"},children:[e("p",{children:["Count: ",t]}),n("button",{onClick:()=>r(o=>o+1),children:"Increment"}),n("h3",{children:"This is a client component."})]})};export{i as Counter};

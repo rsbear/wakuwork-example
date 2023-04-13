@@ -1,0 +1,16 @@
+{
+  "name": "wakuwork-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "wakuwork start"
+  },
+  "dependencies": {
+    "react": "18.3.0-next-b14f8da15-20230403",
+    "react-dom": "18.3.0-next-b14f8da15-20230403",
+    "react-server-dom-webpack": "18.3.0-next-b14f8da15-20230403",
+    "tsx": "^3.12.6",
+    "wakuwork": "~0.9.1"
+  }
+}
